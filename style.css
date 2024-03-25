@@ -1,0 +1,208 @@
+#header{  
+    position: fixed;
+    top: -1px;
+    left: 1px;
+    right: 1px;
+    z-index: 1000; /* Set a high z-index to ensure it appears above most other elements */
+    width: 100%;
+    height: 70px;
+    background-image: url(headerimg.jpg);
+    background-repeat: repeat-x;
+    background-size: 100% auto; 
+    background-position: left top; 
+    height: 17%;
+   
+ 
+}
+   
+
+#header img{
+   
+   
+    display: block;
+    margin: auto;
+    height: 130px;
+    padding-top: -1px;
+    padding-right: 30px;
+    width: 22%;
+    height: 95%;
+   
+}
+
+h1{
+    padding-right: 50px;
+    text-align: center;
+    position:relative;
+    font-size: 26px;
+}
+
+h2{
+    text-align: center;
+    background: rgba(255,255,255,.8);
+    width: 95%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 5px;
+}
+#h3{ font-family: Helvetica, sans-serif;
+    text-align: center;
+    background: rgba(255,255,255,.8);
+    width: 95%;
+    height: 30px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 5px;
+}
+
+
+body{
+    background-image: url(wallpw.webp);
+    background-size: auto;
+    background-repeat: repeat-y repeat-x;
+    background-attachment: fixed;
+}
+
+#img{
+    padding-left: 12%;
+}
+
+
+/*============ TABS TOP ============*/
+
+#tabs-top{
+    position: fixed;
+    top: 100px;
+    left: 0;
+    z-index: auto;
+    width: 100%;
+    height: 40px;
+    background-color:black;
+}
+
+#tabs-top a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============ TABS BOTTOM ============*/
+#tabs-bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 40px;
+    background-color:rgb(0, 0, 0);
+}
+
+#tabs-bottom a{
+    float: left;
+    display: block;
+    width: 33%;
+    height: 35px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 12px;
+}
+
+/*============ INFO-BOX-FULL ============*/
+
+#info-box-full{
+    text-decoration: none;
+   font-size: large;
+   text-align: center;
+}
+
+/*============ FORM ============*/
+input{
+    width: 100%;
+    height: 25px;
+    margin: 12px o;
+    border: 1px solid #0f0d0d;
+}
+
+textarea{
+    width: 100%;
+    height: 65px;
+    margin: 12px 0;
+    border: 1px solid #0c0b0b;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    background-color:black;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 12px o;
+    padding: 8px o;
+}
+
+
+/*============ INFO-BOX ============*/
+
+a.info-box{
+    text-decoration: none;
+    background: rgba(255,255,255,.8);
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    padding: 1px;
+}
+
+.info-box img{
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+.info-box img.right{
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+.info-box h3{
+    padding: 0px;
+    margin-bottom: 0px;
+    width: 90%;
+    color: #0f0f0e;
+}
+
+.info-box p{
+    margin: 0px;
+    padding: 0px;
+    width: 90%;
+    color: #131313;
+}
+/*============ MAIN ============*/
+
+#main{
+    margin-top:20px;
+
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+#content{
+    padding-top: 1px;
+    padding-bottom: 50px;
+}
+
